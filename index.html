@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula de CSS</title>
+    <!-- index é sempre a página inicial de um projeto -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- <style>
+    .corpo {
+        margin: 0px;
+    }
+
+    span {
+        color: blueviolet;
+    }
+
+    .card {
+        width: 500px;
+        height: fit-content;
+        background-color: aliceblue;
+        border-radius: 25px;
+        border: dashed 5px #022419;
+        /* solid - estilo de borda sem estilo*/
+    }
+
+    .boxImage {
+        width: 100px;
+        height: 100px;
+        background: #022419;
+        border: 1px solid #022419;
+        border-radius: 50px;
+    }
+
+    #estiloH1  {
+        font-family: monospace, sans-serif;
+        font-size: 30px;
+    }
+
+    .estiloRosa {
+        color:indianred
+    }
+</style> -->
+
+<body class="corpo">
+
+    <!-- div pai -  -->
+    <div class="card">
+        <div class="boxImage"></div>
+        <h1 id="estiloH1">
+            Meu nome é: <span>Luma</span>
+        </h1>
+        <p>
+            Mensagem: <i style="color:indianred">A vida não é um morango, é um Moranguete!</i>
+        </p>
+    </div>
+
+    <div
+        style="width: 500px; height: fit-content; background-color:aliceblue; border-radius: 25px; border: solid 5px #022419; margin-top: 35px;">
+        <div style="width: 100px; height: 100px; background: #022419; border: 1px solid #022419; border-radius: 50px;">
+        </div>
+        <h1 style="font-family: monospace, sans-serif; font-size: 30px;">
+            Meu nome é: <span style="color:blueviolet">Luma</span>
+        </h1>
+        <p>
+            Mensagem: <i class="estiloRosa">A vida não é um morango, é um Moranguete!</i>
+        </p>
+    </div>
+</body>
+
+</html>
